@@ -404,6 +404,7 @@ header {
     width: 100%;
     max-width: 48.6rem;
   }
+
   
   .s-contact .container .form-contact .input-group input[type="text"] {
     margin-bottom: 3.1rem;
@@ -415,6 +416,7 @@ header {
   .s-contact .container .form-contact .input-group textarea {
     margin-bottom: 0;
   }
+
   .input-button {
     width: 100%;
     display: flex;
