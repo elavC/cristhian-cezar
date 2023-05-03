@@ -411,7 +411,7 @@
   @media (max-width: 400px) {
 
     body {
-      background-image: url(../img//img-cristhian.jpg);
+      background-image: url(../img/case2.jpg);
       /* background-size: cover;
       background-repeat: no-repeat; */
       /* background-attachment: fixed; */
@@ -465,7 +465,7 @@
 
   @media (max-width: 320px) {
     body {
-      background-image: url(../img/img-cristhian.jpg);
+      background-image: url(../img/case1.jpg);
       /* background-size: cover;
       background-repeat: no-repeat; */
       /* background-attachment: fixed; */
