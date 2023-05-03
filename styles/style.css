@@ -4,9 +4,10 @@ html {
 }
 
 body {
-  height: 100%;
-  background-image: url(../img/case2.jpg);
-
+  background-image: url(../img/img-cristhian-cezar-bg-black-large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header {
@@ -75,12 +76,6 @@ header {
   }
   
   /* Section hero */
-  .s-hero {
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
-    /* background-color: aliceblue; */
-  }
 
   #particles-js {
     width: 100%;
