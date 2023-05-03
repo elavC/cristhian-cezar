@@ -5,6 +5,8 @@ html {
 
 body {
   height: 100%;
+  background-image: url(../img/case2.jpg);
+
 }
 
 header {
@@ -74,7 +76,6 @@ header {
   
   /* Section hero */
   .s-hero {
-    background-image: url(../img/case2.jpg);
     /* background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; */
