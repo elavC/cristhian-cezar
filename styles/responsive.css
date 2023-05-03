@@ -235,7 +235,7 @@
   @media (max-width: 800px) {
 
     .s-hero {
-      background: url(../img//img-cristhian.jpg);
+      background-image: url(../img//img-cristhian.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -282,7 +282,7 @@
   @media (max-width: 700px) {
 
     .s-hero {
-      background: url(../img//img-cristhian.jpg);
+      background-image: url(../img//img-cristhian.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -357,7 +357,7 @@
   
   @media (max-width: 500px) {
     .s-hero {
-      background: url(../img//img-cristhian.jpg);
+      background-image: url(../img//img-cristhian.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -414,7 +414,7 @@
   @media (max-width: 400px) {
 
     .s-hero {
-      background: url(../img//img-cristhian.jpg);
+      background-image: url(../img//img-cristhian.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -469,7 +469,7 @@
 
   @media (max-width: 320px) {
     .s-hero {
-      background: url(../img//img-cristhian.jpg);
+      background-image: url(../img//img-cristhian.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;

@@ -74,7 +74,7 @@ header {
   
   /* Section hero */
   .s-hero {
-    background: url(../img//img-cristhian-cezar-bg-black-large.jpg);
+    background-image: url(../img//img-cristhian-cezar-bg-black-large.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
