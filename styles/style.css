@@ -74,11 +74,11 @@ header {
   
   /* Section hero */
   .s-hero {
-    /* background-image: url(../img/img-cristhian-cezar-bg-black-large.jpg);
-    background-size: cover;
+    background-image: url(../img/case2.jpg);
+    /* background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; */
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
   }
 
   #particles-js {
