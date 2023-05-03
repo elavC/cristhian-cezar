@@ -236,9 +236,9 @@
 
     body {
       background-image: url(../img/img-cristhian.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+      /* background-size: cover;
+      background-repeat: no-repeat; */
+      /* background-attachment: fixed; */
     }
 
     #particles-js {
@@ -282,9 +282,9 @@
 
     body {
       background-image: url(../img/img-cristhian.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+      /* background-size: cover;
+      background-repeat: no-repeat; */
+      /* background-attachment: fixed; */
     }
 
     .s-hero .container .title h1 {
@@ -356,9 +356,9 @@
   @media (max-width: 500px) {
     body {
       background-image: url(../img/img-cristhian.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+      /* background-size: cover;
+      background-repeat: no-repeat; */
+      /* background-attachment: fixed; */
     }
 
     header .container .logo{
@@ -412,9 +412,9 @@
 
     body {
       background-image: url(../img//img-cristhian.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+      /* background-size: cover;
+      background-repeat: no-repeat; */
+      /* background-attachment: fixed; */
     }
 
     header .container .logo{
@@ -466,9 +466,9 @@
   @media (max-width: 320px) {
     body {
       background-image: url(../img/img-cristhian.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+      /* background-size: cover;
+      background-repeat: no-repeat; */
+      /* background-attachment: fixed; */
     }
 
     header .container .logo{
