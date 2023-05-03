@@ -239,6 +239,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
+      height: 100%;
     }
 
     #particles-js {
@@ -285,6 +286,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
+      height: 100%;
     }
 
     .s-hero .container .title h1 {
@@ -359,6 +361,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
+      height: 100%;
     }
 
     header .container .logo{
@@ -415,6 +418,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
+      height: 100%;
     }
 
     header .container .logo{
@@ -469,6 +473,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
+      height: 100%;
     }
 
     header .container .logo{

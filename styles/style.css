@@ -1,4 +1,12 @@
 /* Header */
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
 header {
     position: absolute;
     top: 0;
