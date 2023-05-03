@@ -234,7 +234,7 @@
   
   @media (max-width: 800px) {
 
-    .s-hero {
+    body {
       background-image: url(../img/img-cristhian.jpg);
       /* width: 100%;
       height: 100%;
