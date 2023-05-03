@@ -356,6 +356,8 @@
   @media (max-width: 500px) {
     body {
       background-image: url(../img/case3.jpg);
+      width: 100%;
+      height: 100%;
       /* background-size: cover;
       background-repeat: no-repeat; */
       /* background-attachment: fixed; */
