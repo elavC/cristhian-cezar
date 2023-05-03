@@ -3,13 +3,6 @@ html {
   height: 100%;
 }
 
-body {
-  background-image: url(../img/img-cristhian-cezar-bg-black-large.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 header {
     position: absolute;
     top: 0;
@@ -76,6 +69,13 @@ header {
   }
   
   /* Section hero */
+
+  .s-hero {
+    background-image: url(../img//img-cristhian-cezar-bg-black-large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 
   #particles-js {
     width: 100%;
