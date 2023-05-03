@@ -235,11 +235,10 @@
   @media (max-width: 800px) {
 
     .s-hero {
-      background-image: url(../img/img-cristhian.jpg);
+      background-image: url(../img/img-cristhian-cezar-bg-black-large.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      border-radius: 1px solid red;
     }
 
     #particles-js {
@@ -282,12 +281,10 @@
   @media (max-width: 700px) {
 
     .s-hero {
-      background-image: url(../img/img-cristhian.jpg);
+      background-image: url(../img/img-cristhian-cezar-bg-black-large.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      border-radius: 1px solid red;
-
     }
 
     .s-hero .container .title h1 {
@@ -358,12 +355,10 @@
   
   @media (max-width: 500px) {
     .s-hero {
-      background-image: url(../img/img-cristhian.jpg);
+      background-image: url(../img/img-cristhian-cezar-bg-black-large.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      height: 100%;
-
     }
 
     header .container .logo{
@@ -416,12 +411,10 @@
   @media (max-width: 400px) {
 
     .s-hero {
-      background-image: url(../img//img-cristhian.jpg);
+      background-image: url(../img//img-cristhian-cezar-bg-black-large.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      border-radius: 1px solid red;
-
     }
 
     header .container .logo{
@@ -472,11 +465,10 @@
 
   @media (max-width: 320px) {
     .s-hero {
-      background-image: url(../img/img-cristhian.jpg);
+      background-image: url(../img/img-cristhian-cezar-bg-black-large.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      background-color: aliceblue;
     }
 
     header .container .logo{
