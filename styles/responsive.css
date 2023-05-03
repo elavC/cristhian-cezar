@@ -282,19 +282,15 @@
   
   @media (max-width: 700px) {
 
-    body {
-      background-image: url(../img/img-cristhian.jpg);
+    /* body { */
       /* z-index: 99;
       background-size: cover;
       background-repeat: no-repeat; */
     }
-
-    /* .s-hero {
+    
+    .s-hero {
       background-image: url(../img/img-cristhian.jpg);
-      z-index: 99;
-      background-size: cover;
-      background-repeat: no-repeat;
-    } */
+    } 
 
     .s-hero .container .title h1 {
       font-size: 48px;
