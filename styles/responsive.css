@@ -229,9 +229,15 @@
   
   @media (max-width: 800px) {    
     #particles-js {
-      background-image: url(../img/case1.jpg);
+      height: 100vh;
+      width: 100%;
+    }
+    
+    .s-hero .container {
+      background-image: url(../img/img-cristhian.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      background-attachment: fixed;
       height: 100vh;
     }
 
