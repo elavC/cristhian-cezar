@@ -234,6 +234,7 @@
     }
     
     .s-hero .container {
+      background-image: linear-gradient(to bottom, black, rgb(91, 91, 91));
       background-image: url(../img/img-cristhian.jpg);
       background-repeat: no-repeat;
       background-size: cover;
