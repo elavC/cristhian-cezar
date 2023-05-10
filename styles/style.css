@@ -68,8 +68,9 @@ header {
     transform: translateY(-5%);
   }
   
-  /* Section hero */
 
+
+  /* Section hero */
   .s-hero {
     background-image: url(../img//img-cristhian-cezar-bg-black-large.jpg);
     background-size: cover;
@@ -160,36 +161,16 @@ header {
     text-align: center;
     color: rgba(255, 255, 255, 0.8);
   }
-  
-  .s-hero .container .title .techs {
+
+  .s-hero .container .title .container-icons {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-    margin-top: 2.2rem;
-  }
-
-  .s-hero .container .title .techs .container-icons {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 8px;
+    gap: 16px;
     background-color: rgba(255, 255, 255, 0.373);
-    padding: 4px 24px;
+    padding: 8px 60px;
     border-radius: 24px;
+    margin-top: 40px;
   }
-
-  .s-hero .container .title .techs .container-gt-icons {
-    background-color: rgba(1, 1, 1, 0.545);
-  }
-
-  .s-hero .container .title .techs .container-icons .gt-icons img {
-    width: 40px;
-  }
-
-  .s-hero .container .title .techs .container-icons .tech--icon img {
-    width: 30px;
-  } 
 
   .tech--icon:hover {
     animation-name: move;
@@ -212,8 +193,9 @@ header {
     padding: 1rem 5.6rem;
   }
   
+
+
   /* Section Success */
-  
   .s-success {
     padding: 14.4rem 0;
     margin: 0 auto;
@@ -231,15 +213,18 @@ header {
   
   .s-success .container .cards {
     display: flex;
+    gap: 32px;
   }
   
   .s-success .container .cards .card {
-    width: 100%;
-    max-width: 27.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 27.9rem;
     height: 30.4rem;
     background-color: rgba(255,255,255,0.5);
     border-radius: 4px;
-    margin-right: 3.3rem;
     cursor: pointer;
     transition: all 1.5s;
     animation: cards 2s;
@@ -266,16 +251,6 @@ header {
     margin-right: 0;
   }
   
-  .s-success .container .cards .card .card-title {
-    margin: 5rem 0;
-    padding-right: 14.5rem;
-    padding-left: 1.4rem;
-  }
-  
-  .s-success .container .cards .card .card-info {
-    padding-left: 1.4rem;
-  }
-  
   .s-success .container .cards .card .card-title h3 {
     font-family: "Inter";
     font-weight: 300;
@@ -289,10 +264,12 @@ header {
     font-weight: 300;
     font-size: 2.8rem;
     line-height: 3.9rem;
+    text-align: center;
   }
   
+
+
   /* About */
-  
   .s-about {
     background-color: var(--black-color-medium);
     padding: 6rem 0;
@@ -305,7 +282,16 @@ header {
   
   .s-about .container .about-me {
     width: 100%;
-    max-width: 71rem;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .s-about .container .about-me .my-picture {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
   }
   
   .s-about .container .about-me p {
@@ -313,7 +299,7 @@ header {
     line-height: 2.4rem;
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.83);
-    margin-top: 2.4rem;
+    width: 70%;
   }
   
   .s-about .container .about-me ul {
@@ -333,7 +319,9 @@ header {
     border-radius: 12px;
     width: 350px;
   }
+
   
+
   /* Cases */
   .s-cases {
     padding: 4.5rem 0;
@@ -344,47 +332,32 @@ header {
     display: flex;
     flex-direction: column;
   }
+
   .s-cases .container .title-cases {
     margin-bottom: 7.3rem;
   }
-
-  .s-cases .container .about-work {
-    color: white;
+  
+  .s-cases .cases .img-cases {
     display: flex;
-    justify-content: space-evenly;
-
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
   }
 
-  .s-cases .container .about-work .card {
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-    border-radius: 12px;
-    padding: 8px;
-    background-color:  rgba(152, 152, 152, 0.871);
+  .s-cases .cases .img-cases img {
+    border-radius: 16px;
+    transition: 0.2s;
+    box-shadow: rgb(255, 255, 255) 0px 5px 10px;
   }
 
-  .s-cases .container .about-work .card:nth-child(2) {
-    background-color:   rgba(152, 152, 152, 0.482);
-  }
-
-  .s-cases .container .about-work .card:nth-child(3) {
-    background-color:   rgba(152, 152, 152, 0.29);
-  }
-
-  .s-cases .container .about-work .card h3 {
-    font-size: 16px;
-  }
-
-  .s-cases .container .about-work .card p {
-    font-size: 12px;
+  .s-cases .cases .img-cases img:hover {
+    transform: scale(1.1);
   }
   
-  
+
+
   /* Contact */
-  
   .s-contact {
     padding-bottom: 4rem;
   }
@@ -431,8 +404,9 @@ header {
     font-weight: 700;
   }
   
-  /*Footer*/
+
   
+  /*Footer*/
   footer {
     background-color: var(--black-color-medium);
   }
