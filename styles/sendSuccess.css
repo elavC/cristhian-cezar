@@ -1,0 +1,19 @@
+boddy {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+.container span {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
