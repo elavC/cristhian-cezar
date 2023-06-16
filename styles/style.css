@@ -1,86 +1,21 @@
 /* Header */
 html {
   height: 100%;
-}
-
-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 4rem 0px;
-    z-index: 2021;
-  }
-  
-  header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  header .container .logo {
-    font-weight: bold;
-    font-size: 56px;
-    color: yellow;
-  }
-  
-  header .container nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  header .container nav .menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  header .container nav .menu li {
-    margin-right: 4.8rem;
-  }
-  
-  header .container nav .menu-social {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    margin-left: 4rem;
-    gap: 3.4rem;
-  }
-  header .container nav .menu-social img {
-    transition: all 0.2s;
-    display: block;
-    max-width: 300px;
-    transition: .3s;
-    
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    filter: gray; /* IE */
-  }
-  
+}  
   img:hover {
     -webkit-filter: none;	
     filter: none;	
-  }
-
-  header .container nav .menu-social img:hover {
-    filter: brightness(90%);
-    transform: translateY(-5%);
-  }
-  
-
+  } 
 
   /* Section hero */
   .s-hero {
-    background-image: url(../img//img-cristhian-cezar-bg-black-large.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: #141E30;   
+    background: linear-gradient(to right, #243B55, #141E30); 
   }
 
   #particles-js {
     width: 100%;
-    height: 110vh;
+    height: 100vh;
   }
   
   .s-hero .container {
@@ -88,6 +23,8 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100vh;
   }
   
   .s-hero .container .title {
@@ -96,8 +33,6 @@ header {
     align-items: center;
     width: 100%;
     max-width: 59.2rem;
-    margin-top: 24rem;
-    padding-bottom: 6rem;
   }
   
   .s-hero .container .title h1 {
@@ -188,12 +123,6 @@ header {
         transform: scale(1.5);
       }
   }
-  
-  .s-hero .container .title .btn-primary {
-    margin-top: 4rem;
-    padding: 1rem 5.6rem;
-  }
-  
 
 
   /* Section Success */
@@ -339,23 +268,29 @@ header {
   }
   
   .s-cases .cases .img-cases {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 24px;
     justify-content: center;
-    align-items: center;
-    gap: 32px;
+  }
+
+  .s-cases .cases .img-cases a {
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all ease 0.2s;
+    object-fit: cover;
+    height: 400px;
+    box-shadow: rgba(255, 255, 255, 0.845) 0px 1px 2px 0px, rgba(255, 255, 255, 0.15) 0px 1px 3px 1px;
+  }
+  
+  .s-cases .cases .img-cases a:hover {
+    transform: scale(1.1);
   }
 
   .s-cases .cases .img-cases img {
-    border-radius: 16px;
-    transition: 0.2s;
-    box-shadow: rgb(255, 255, 255) 0px 5px 10px;
+    width: 100%;
+    height: 100%;
   }
-
-  .s-cases .cases .img-cases img:hover {
-    transform: scale(1.1);
-  }
-  
 
 
   /* Contact */
@@ -410,6 +345,7 @@ header {
   /*Footer*/
   footer {
     background-color: var(--black-color-medium);
+    text-align: center;
   }
   
   footer .container {

@@ -29,21 +29,7 @@
 
   }
 
-  @media (max-width: 950px) {    
-    #particles-js {
-      height: 100vh;
-    }
-
-    .s-hero .container {
-      height: 100%;
-    }
-    
-    .s-hero .container .title {
-      display: flex;
-      flex-direction: column;
-      gap: 48px;
-    }
-
+  @media (max-width: 1020PX) {    
     .s-hero .container .title h2 {
       font-size: 32px;
     }
@@ -59,7 +45,6 @@
     }
 
     .s-success .container .cards {
-      flex-direction: column;
       gap: 2.4rem;
       align-items: center;
       justify-content: center;
@@ -82,11 +67,11 @@
     }
 
     .s-about .about-me .my-picture img {
-      width: 20rem;
+      width: 30rem;
     }
 
-    .s-about .about-me p {
-      width: 90%;
+    .s-about .my-picture p {
+      width: 300px;
     }
 
     .s-cases .container .title-cases h2 {
@@ -116,106 +101,39 @@
       justify-content: center;
     }
   }
-  
-  @media (max-width: 940px) {
-    header .container nav,
-    header .container nav .menu {
-      flex-direction: column;
-    }
 
-    header .container {
-      display: inline-block;
-      height: 100px;
+  @media (max-width: 900PX) {
+    .s-cases .cases .img-cases {
+      grid-template-columns: 300px 300px;
+      gap: 40px;
     }
-  
-    header .container .logo img {
-      width: 8.4rem;
-    }
-  
-    header .container nav {
-      opacity: 0;
-      visibility: hidden;
-      transition: 0.2s;
-      top: -20rem;
-    }
-  
-    header .container nav .menu,
-    header .container nav .btn-primary,
-    header .container nav .menu-social {
-      display: none;
-    }
-  
-    header .container nav.show {
-      opacity: 1;
-      visibility: visible;
-      position: fixed;
-      width: 100vw;
-      height: 100vh;
-      top: 0;
-      left: 0;
-      z-index: 1;
-      align-items: center;
-      justify-content: center;
-      gap: 8rem;
-      background-color: var(--black-color);
-    }
-  
-    header .container nav .menu,
-    header .container nav .btn-primary,
-    header .container nav .menu-social {
-      display: flex;
-    }
-
-    header .container .open-menu {
-      position: absolute;
-      background-image: url(../img/menu.svg);
-      width: 54px;
-      height: 54px;
-      background-repeat: no-repeat;
-      top: 6rem;
-      right: 1.5rem;
-      display: inline-block;
-      cursor: pointer;
-    }
-
-    header .container nav .close-menu {
-      position: absolute;
-      background-image: url(../img/close.svg);
-      width: 54px;
-      height: 54px;
-      background-repeat: no-repeat;
-      top: 3.5rem;
-      right: 4rem;
-      display: inline-block;
-      cursor: pointer;
-    }
-  
-    header .container nav .menu {
-      gap: 6rem;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    header .container nav .menu li,
-    header .container nav .menu-social {
-      margin: 0 auto;
-    }
-  
-    header .container nav .menu li a {
-      font-size: 2.4rem;
-    }
-
   }
   
-  @media (max-width: 700px) {    
+  @media (max-width: 700px) {   
+    h2 {
+      font-size: 4rem;
+    } 
+
     .s-hero .container .title {
       display: flex;
       flex-direction: column;
       gap: 32px;
     }
 
+    .s-hero .container .container-icons img {
+      width: 40px;
+    }
+
     .s-about .container .my-picture p {
       width: 66%;
+    }
+
+    .s-success .container .cards {
+      flex-direction: column;
+    }
+
+    .s-cases .cases .img-cases {
+      grid-template-columns: 300px;
     }
   }
 
@@ -230,6 +148,10 @@
     .s-hero .container .title h1 {
       font-size: 40px;
       line-height: 40px;
+    }
+
+    .s-hero .container .container-icons img {
+      width: 32px;
     }
 
     .s-about .container .my-picture {
@@ -266,4 +188,30 @@
       width: 32px;
     }
 
+  }
+
+  @media (max-width: 375px) {
+    .s-hero .container .title h2 {
+      margin-bottom: 0;
+    }
+
+    .s-hero .container .title h1 {
+      font-size: 3.2rem;
+    }
+
+    .s-hero .container .title .container-icons {
+      margin-top: 16px;
+    }
+
+    .s-hero .container .container-icons img {
+      width: 24px;
+    }
+
+    .s-about .container .my-picture img {
+      width: 24rem;
+    }
+
+    .s-cases .cases .img-cases {
+      grid-template-columns: 250px;
+    }
   }
