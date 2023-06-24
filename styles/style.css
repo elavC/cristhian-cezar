@@ -177,16 +177,36 @@ html {
   }
 
   .animate1 {
-    animation: animateCard 1.5s normal ease-in;
+    animation: animateCard1 1.4s normal ease-in;
   }
 
   .animate2 {
-    animation: animateCard 2s normal ease-in;
+    animation: animateCard2 2.1s normal ease-in;
   }
 
   @keyframes animateCard {
     from {
       margin-left: -200vw;
+    }
+
+    to {
+      margin-left: 0;
+    }
+  }
+
+  @keyframes animateCard1 {
+    from {
+      margin-left: -300vw;
+    }
+
+    to {
+      margin-left: 0;
+    }
+  }
+
+  @keyframes animateCard2 {
+    from {
+      margin-left: -500vw;
     }
 
     to {
