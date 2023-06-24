@@ -123,6 +123,25 @@ html {
     padding: 14.4rem 0;
     margin: 0 auto;
   }
+
+  .wrapper {
+    opacity: 0;
+  }
+
+  .wrapper-animate {
+    opacity: 1;
+    animation: showWrapper 3s normal;
+  }
+
+  @keyframes showWrapper {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
   
   .s-success .container {
     display: flex;
@@ -149,7 +168,30 @@ html {
     background-color: rgba(255,255,255,0.5);
     border-radius: 4px;
     cursor: pointer;
-    transition: all 1.5s;
+    transition: all 1s;
+    opacity: 0;
+  }
+  
+  .animate {
+    animation: animateCard 0.7s normal ease-in;
+  }
+
+  .animate1 {
+    animation: animateCard 1.5s normal ease-in;
+  }
+
+  .animate2 {
+    animation: animateCard 2s normal ease-in;
+  }
+
+  @keyframes animateCard {
+    from {
+      margin-left: -200vw;
+    }
+
+    to {
+      margin-left: 0;
+    }
   }
   
   .s-success .container .cards .card:hover {
